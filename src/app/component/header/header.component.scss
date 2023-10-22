@@ -1,0 +1,38 @@
+.form-control {
+    border-radius: 3px;
+    width: 600px;
+    margin-left: 20px;
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 10;
+    right: 40%;
+    top: 20px;
+    color: rgb(153, 193, 219);
+}
+
+.badge bg-danger{
+  margin-right: 20px;
+}
+
+.fas fa-cart-plus{
+  margin-right: 20px;
+}
+
+/* logout-button.component.css */
+.logout-button {
+    background-color: #f44336; /* Red color for the button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 20px;
+  }
+  
+  .logout-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  

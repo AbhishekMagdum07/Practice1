@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Responsive Registration Form | CodingLab </title>
+   
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="#" [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" formControlName="fullName" required  >
+          </div>
+          <div class="input-box">
+            <span class="details">Date Of Birth</span>
+            <input type="date" placeholder="Enter your dob" formControlName="dateOfBirth" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" formControlName="email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" formControlName="contactNumber" required >
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter your password" formControlName="password" required>
+          </div>
+        </div>
+
+       
+
+  <div class="gender-details">
+  <span class="gender-title">Gender</span>
+  <div class="category">
+    <label for="male">
+      <input type="radio" id="male" formControlName="gender" value="Male">
+      <span class="dot one"></span>
+      <span class="gender">Male</span>
+    </label>
+    <label for="female">
+      <input type="radio" id="female" formControlName="gender" value="Female">
+      <span class="dot two"></span>
+      <span class="gender">Female</span>
+    </label>
+    <label for="other">
+      <input type="radio" id="other" formControlName="gender" value="Other">
+      <span class="dot three"></span>
+      <span class="gender">Other</span>
+    </label>
+  </div>
+</div>
+
+        <div class="button">
+          <input type="submit" value="Register" >
+        </div>
+      </form>
+      
+      <div class="input-box">
+        <span class="details">OTP</span>
+        <input type="text" [(ngModel)]="otpByUser" placeholder="Enter your OTP" required>
+        <button (click)="validate()">Validate otp</button>
+      </div>
+      
+    </div>
+  </div>
+
+</body>
+</html>

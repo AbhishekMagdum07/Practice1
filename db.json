@@ -1,0 +1,243 @@
+{
+  "products" : [
+    {
+      "bookName": "The Alchemist",
+      "price": 15,
+      "description": "A philosophical novel by Paulo Coelho about a young shepherd named Santiago who embarks on a journey to discover the secrets of the universe.",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/I/51Z0nLAfLmL.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "price": 22.3,
+      "description": "Harper Lee's classic novel set in the American South during the 1930s, exploring themes of racism, morality, and justice through the eyes of a young girl named Scout Finch.",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/I/41j-s9fHJcL.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "price": 25.99,
+      "description": "George Orwell's dystopian novel depicting a totalitarian society where independent thought is suppressed, and the government controls every aspect of life.",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/I/81StSOpmkjL._AC_UF1000,1000_QL80_.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "price": 15.99,
+      "description": "Jane Austen's romantic novel explores the relationships and social norms of early 19th-century England, with a strong-willed heroine, Elizabeth Bennet, at its center.",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/S/pv-target-images/05d2a93144be2b28126847ff0aba7effc6ecbe4642018ff187aa7b0a36d9f589._UR1920,1080_.jpg",
+      "rating": {
+        "rate": 2.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 5,
+      "title": "The Great Gatsby",
+      "price": 695,
+      "description": "F. Scott Fitzgerald's novel set in the Roaring Twenties, following the enigmatic millionaire Jay Gatsby and his obsession with the elusive Daisy Buchanan.",
+      "category": "jewelery",
+      "image": "https://irs.www.warnerbros.com/keyart-jpeg/movies/media/browser/the_great_gatsby_key_art.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 6,
+      "title": "The Catcher in the Rye",
+      "price": 168,
+      "description": "J.D. Salinger's coming-of-age novel narrated by Holden Caulfield, a disenchanted teenager who embarks on a journey of self-discovery in New York City.",
+      "category": "jewelery",
+      "image": "https://nautilus.ro/image/cache/data/Coperti/9780241950432-200x200w.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      }
+    },
+    {
+      "id": 7,
+      "title": "The Hobbit",
+      "price": 9.99,
+      "description": "J.R.R. Tolkien's fantasy novel tells the story of Bilbo Baggins, a hobbit who is thrust into an epic adventure with dwarves and a dragon.",
+      "category": "jewelery",
+      "image": "https://m.media-amazon.com/images/I/71a+5TjuYDL._AC_UF1000,1000_QL80_.jpg",
+      "rating": {
+        "rate": 3,
+        "count": 400
+      }
+    },
+    {
+      "id": 8,
+      "title": "The Lord of the Rings",
+      "price": 10.99,
+      "description": "A trilogy by J.R.R. Tolkien that chronicles the epic quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+      "category": "jewelery",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "rating": {
+        "rate": 1.9,
+        "count": 100
+      }
+    },
+    {
+      "id": 9,
+      "title": "Moby-Dick",
+      "price": 6,
+      "description": "Herman Melville's classic novel about Captain Ahab's obsessive pursuit of the ",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/M/MV5BODM4NmEzNWEtNDE4ZC00NDNlLWI1ZDQtYzJhYWVmMTkzMjJlXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_.jpg",
+      "rating": {
+        "rate": 3.3,
+        "count": 203
+      }
+    },
+    {
+      "id": 10,
+      "title": "Brave New World",
+      "price": 14,
+      "description": " Aldous Huxley's dystopian novel envisions a futuristic society where technology, hedonism, and conformity reign supreme, challenging notions of individuality.",
+      "category": "electronics",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 470
+      }
+    },
+    {
+      "id": 11,
+      "title": "The Road",
+      "price": 32,
+      "description": "Cormac McCarthy's post-apocalyptic novel follows a father and son as they journey through a desolate landscape, exploring themes of survival and humanity.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/81cAuYAq7pL._AC_UF1000,1000_QL80_.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 319
+      }
+    },
+    {
+      "id": 12,
+      "title": "The Hunger Games",
+      "price": 18,
+      "description": "Suzanne Collins' young adult dystopian series set in a future where teenagers are forced to participate in televised death matches as a form of entertainment.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/71WSzS6zvCL._AC_UF1000,1000_QL80_.jpg",
+      "rating": {
+        "rate": 4.8,
+        "count": 400
+      }
+    },
+    {
+      "id": 13,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "price": 7,
+      "description": "J.K. Rowling's first book in the Harry Potter series introduces readers to the young wizard Harry as he embarks on his magical journey at Hogwarts School of Witchcraft and Wizardry.",
+      "category": "electronics",
+      "image": "https://m.media-amazon.com/images/I/81m1s4wIPML._AC_UF1000,1000_QL80_.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 250
+      }
+    },
+    {
+      "id": 14,
+      "title": "The Da Vinci Code ",
+      "price": 32.99,
+      "description": "4Dan Brown's thriller follows Harvard professor Robert Langdon as he unravels a complex web of secrets, symbols, and mysteries.g",
+      "category": "electronics",
+      "image": "https://static.toiimg.com/thumb/msid-101189272,imgsize-39742,width-900,height-1200,resizemode-6/101189272.jpg",
+      "rating": {
+        "rate": 2.2,
+        "count": 140
+      }
+    },
+    {
+      "id": 15,
+      "title": "The Shining",
+      "price": 17.99,
+      "description": "Stephen King's horror novel tells the story of a family trapped in a haunted hotel during the winter, with the father's descent into madness at its core.",
+      "category": "women's clothing",
+      "image": "https://danielwcheely.files.wordpress.com/2016/02/the_shining_by_stephen_king_cover1.jpg",
+      "rating": {
+        "rate": 2.6,
+        "count": 235
+      }
+    },
+    {
+      "id": 16,
+      "title": "The Girl with the Dragon Tattoo",
+      "price": 22.95,
+      "description": "Stieg Larsson's mystery novel introduces the enigmatic hacker Lisbeth Salander and investigative journalist Mikael Blomkvist as they delve into a decades-old disappearance.",
+      "category": "women's clothing",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTczNDk4NTQ0OV5BMl5BanBnXkFtZTcwNDAxMDgxNw@@._V1_.jpg",
+      "rating": {
+        "rate": 2.9,
+        "count": 340
+      }
+    },
+    {
+      "id": 17,
+      "title": "Gone Girl",
+      "price": 19.99,
+      "description": "Gillian Flynn's psychological thriller revolves around the mysterious disappearance of Amy Dunne and the dark secrets uncovered about her marriage to Nick.",
+      "category": "women's clothing",
+      "image": "https://m.media-amazon.com/images/I/71+khXHbe5L._AC_UF1000,1000_QL80_.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      }
+    },
+    {
+      "id": 18,
+      "title": "The Road Less Traveled",
+      "price": 9.85,
+      "description": "A self-help book by M. Scott Peck that explores the journey of personal and spiritual growth, offering insights into building a more fulfilling life.",
+      "category": "women's clothing",
+      "image": "https://m.media-amazon.com/images/I/316bWrlNJeS.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    },
+    {
+      "id": 19,
+      "title": "The Art of War",
+      "price": 7.95,
+      "description": "An ancient Chinese text attributed to Sun Tzu, this book provides strategies and tactics for military and leadership success, often applied to various aspects of life.",
+      "category": "women's clothing",
+      "image": "https://m.media-amazon.com/images/I/71xJdnydklL._AC_UF1000,1000_QL80_.jpg",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    {
+      "id": 20,
+      "title": "The Lean Startup",
+      "price": 12.99,
+      "description": "Eric Ries' book offers a methodology for developing businesses and products efficiently, emphasizing continuous innovation and customer feedback.",
+      "category": "women's clothing",
+      "image": "https://m.media-amazon.com/images/I/81-QB7nDh4L._AC_UF1000,1000_QL80_.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      }
+    }
+  ]
+}
